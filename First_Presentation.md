@@ -5,7 +5,7 @@
 ## 1. 物理建模 (Newton's Second Law)
 
 根據牛頓第二定律 $F = ma$，定義向下為正方向：
-* **重力**：$F_g = mg$
+* **重力**： $F_g = mg$
 * **空氣阻力**（線性阻力模型）：$F_d = cv$ (其中 $c$ 為阻力係數)
 
 運動方程式為：
@@ -66,7 +66,7 @@ $$v(t) = \frac{mg}{c} \left( 1 - e^{-\frac{ct}{m}} \right)$$
 ## 4. 物理意義討論
 
 1.  **終端速度 (Terminal Velocity)**：
-    當 $t \to \infty$ 時，$e^{-\frac{ct}{m}} \to 0$，速度趨近於穩定值：
+    當 $t \to \infty$ 時， $e^{-\frac{ct}{m}} \to 0$ ，速度趨近於穩定值：
     $$v_{terminal} = \frac{mg}{c}$$
     此時重力與阻力平衡，加速度為零。
 
