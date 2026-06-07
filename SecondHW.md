@@ -339,7 +339,7 @@ $$
 x\cos nx
 $$
 
-其中 \(x\) 是奇函數，\(\cos nx\) 是偶函數，所以 \(x\cos nx\) 是奇函數。
+其中 $x$是奇函數，$cos nx$ 是偶函數，所以$x\cos nx$ 是奇函數。
 
 奇函數在對稱區間積分為 0，因此：
 
@@ -361,7 +361,7 @@ $$
 
 ---
 
-## 4. 計算 \(b_n\)
+## 4. 計算 $b_n$
 
 $$
 b_n=\frac{1}{\pi}\int_{-\pi}^{\pi}(x+\pi)\sin nx\,dx
@@ -373,7 +373,7 @@ $$
 b_n=\frac{1}{\pi}\left(\int_{-\pi}^{\pi}x\sin nx\,dx+\int_{-\pi}^{\pi}\pi\sin nx\,dx\right)
 $$
 
-第二項中，\(\pi\sin nx\) 是奇函數，所以：
+第二項中，$\pi\sin nx$ 是奇函數，所以：
 
 $$
 \int_{-\pi}^{\pi}\pi\sin nx\,dx=0
@@ -385,7 +385,7 @@ $$
 b_n=\frac{1}{\pi}\int_{-\pi}^{\pi}x\sin nx\,dx
 $$
 
-因為 \(x\sin nx\) 是偶函數，所以：
+因為 $x\sin nx$ 是偶函數，所以：
 
 $$
 b_n=\frac{2}{\pi}\int_{0}^{\pi}x\sin nx\,dx
@@ -430,7 +430,7 @@ $$
 \int x\sin nx\,dx=-\frac{x\cos nx}{n}+\frac{\sin nx}{n^2}
 $$
 
-代入上下限 \(0\) 到 \(\pi\)：
+代入上下限 $0$到 $\pi$：
 
 $$
 \int_{0}^{\pi}x\sin nx\,dx=\left[-\frac{x\cos nx}{n}+\frac{\sin nx}{n^2}\right]_{0}^{\pi}
