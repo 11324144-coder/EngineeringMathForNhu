@@ -239,9 +239,9 @@ $$
 
 題目：
 
-\[
+$$
 f(x)=x+\pi,\quad x\in[-\pi,\pi]
-\]
+$$
 
 要求函數 \(f(x)\) 的傅立葉級數。
 
@@ -251,23 +251,23 @@ f(x)=x+\pi,\quad x\in[-\pi,\pi]
 
 在區間 \([-\pi,\pi]\) 上，傅立葉級數形式為：
 
-\[
+$$
 f(x)=\frac{a_0}{2}+\sum_{n=1}^{\infty}\left(a_n\cos nx+b_n\sin nx\right)
-\]
+$$
 
 其中：
 
-\[
+$$
 a_0=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\,dx
-\]
+$$
 
-\[
+$$
 a_n=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\cos nx\,dx
-\]
+$$
 
-\[
+$$
 b_n=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\sin nx\,dx
-\]
+$$
 
 ---
 
@@ -275,121 +275,121 @@ b_n=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\sin nx\,dx
 
 因為：
 
-\[
+$$
 f(x)=x+\pi
-\]
+$$
 
 所以：
 
-\[
+$$
 a_0=\frac{1}{\pi}\int_{-\pi}^{\pi}(x+\pi)\,dx
-\]
+$$
 
 拆開積分：
 
-\[
+$$
 a_0=\frac{1}{\pi}\left(\int_{-\pi}^{\pi}x\,dx+\int_{-\pi}^{\pi}\pi\,dx\right)
-\]
+$$
 
 因為 \(x\) 是奇函數，所以：
 
-\[
+$$
 \int_{-\pi}^{\pi}x\,dx=0
-\]
+$$
 
 而：
 
-\[
+$$
 \int_{-\pi}^{\pi}\pi\,dx=2\pi^2
-\]
+$$
 
 因此：
 
-\[
+$$
 a_0=\frac{1}{\pi}(2\pi^2)
-\]
+$$
 
-\[
+$$
 a_0=2\pi
-\]
+$$
 
 所以：
 
-\[
+$$
 \frac{a_0}{2}=\pi
-\]
+$$
 
 ---
 
 ## 3. 計算 \(a_n\)
 
-\[
+$$
 a_n=\frac{1}{\pi}\int_{-\pi}^{\pi}(x+\pi)\cos nx\,dx
-\]
+$$
 
 拆開：
 
-\[
+$$
 a_n=\frac{1}{\pi}\left(\int_{-\pi}^{\pi}x\cos nx\,dx+\int_{-\pi}^{\pi}\pi\cos nx\,dx\right)
-\]
+$$
 
 第一項：
 
-\[
+$$
 x\cos nx
-\]
+$$
 
 其中 \(x\) 是奇函數，\(\cos nx\) 是偶函數，所以 \(x\cos nx\) 是奇函數。
 
 奇函數在對稱區間積分為 0，因此：
 
-\[
+$$
 \int_{-\pi}^{\pi}x\cos nx\,dx=0
-\]
+$$
 
 第二項：
 
-\[
+$$
 \int_{-\pi}^{\pi}\pi\cos nx\,dx=0
-\]
+$$
 
 所以：
 
-\[
+$$
 a_n=0
-\]
+$$
 
 ---
 
 ## 4. 計算 \(b_n\)
 
-\[
+$$
 b_n=\frac{1}{\pi}\int_{-\pi}^{\pi}(x+\pi)\sin nx\,dx
-\]
+$$
 
 拆開：
 
-\[
+$$
 b_n=\frac{1}{\pi}\left(\int_{-\pi}^{\pi}x\sin nx\,dx+\int_{-\pi}^{\pi}\pi\sin nx\,dx\right)
-\]
+$$
 
 第二項中，\(\pi\sin nx\) 是奇函數，所以：
 
-\[
+$$
 \int_{-\pi}^{\pi}\pi\sin nx\,dx=0
-\]
+$$
 
 因此只剩：
 
-\[
+$$
 b_n=\frac{1}{\pi}\int_{-\pi}^{\pi}x\sin nx\,dx
-\]
+$$
 
 因為 \(x\sin nx\) 是偶函數，所以：
 
-\[
+$$
 b_n=\frac{2}{\pi}\int_{0}^{\pi}x\sin nx\,dx
-\]
+$$
 
 ---
 
@@ -397,92 +397,92 @@ b_n=\frac{2}{\pi}\int_{0}^{\pi}x\sin nx\,dx
 
 計算：
 
-\[
+$$
 \int_{0}^{\pi}x\sin nx\,dx
-\]
+$$
 
 令：
 
-\[
+$$
 u=x,\quad dv=\sin nx\,dx
-\]
+$$
 
 則：
 
-\[
+$$
 du=dx,\quad v=-\frac{\cos nx}{n}
-\]
+$$
 
 由分部積分公式：
 
-\[
+$$
 \int u\,dv=uv-\int v\,du
-\]
+$$
 
 可得：
 
-\[
+$$
 \int x\sin nx\,dx
 =
 -\frac{x\cos nx}{n}
 +
 \frac{1}{n}\int \cos nx\,dx
-\]
+$$
 
-\[
+$$
 \int x\sin nx\,dx
 =
 -\frac{x\cos nx}{n}
 +
 \frac{\sin nx}{n^2}
-\]
+$$
 
 代入上下限 \(0\) 到 \(\pi\)：
 
-\[
+$$
 \int_{0}^{\pi}x\sin nx\,dx
 =
 \left[-\frac{x\cos nx}{n}+\frac{\sin nx}{n^2}\right]_{0}^{\pi}
-\]
+$$
 
-\[
+$$
 =
 -\frac{\pi\cos n\pi}{n}
 +
 \frac{\sin n\pi}{n^2}
 -
 0
-\]
+$$
 
 因為：
 
-\[
+$$
 \cos n\pi=(-1)^n,\quad \sin n\pi=0
-\]
+$$
 
 所以：
 
-\[
+$$
 \int_{0}^{\pi}x\sin nx\,dx
 =
 -\frac{\pi(-1)^n}{n}
-\]
+$$
 
 因此：
 
-\[
+$$
 b_n=\frac{2}{\pi}\left(-\frac{\pi(-1)^n}{n}\right)
-\]
+$$
 
-\[
+$$
 b_n=-\frac{2(-1)^n}{n}
-\]
+$$
 
 也可以寫成：
 
-\[
+$$
 b_n=\frac{2(-1)^{n+1}}{n}
-\]
+$$
 
 ---
 
@@ -490,54 +490,54 @@ b_n=\frac{2(-1)^{n+1}}{n}
 
 已知：
 
-\[
+$$
 a_0=2\pi
-\]
+$$
 
-\[
+$$
 a_n=0
-\]
+$$
 
-\[
+$$
 b_n=\frac{2(-1)^{n+1}}{n}
-\]
+$$
 
 所以：
 
-\[
+$$
 f(x)=\pi+\sum_{n=1}^{\infty}\frac{2(-1)^{n+1}}{n}\sin nx
-\]
+$$
 
 因此傅立葉級數為：
 
-\[
+$$
 \boxed{
 f(x)=\pi+\sum_{n=1}^{\infty}\frac{2(-1)^{n+1}}{n}\sin nx
 }
-\]
+$$
 
 也就是：
 
-\[
+$$
 \boxed{
 x+\pi
 =
 \pi+2\sin x-\sin 2x+\frac{2}{3}\sin 3x-\frac{1}{2}\sin 4x+\cdots
 }
-\]
+$$
 
 ---
 
 ## 最終答案
 
-\[
+$$
 \boxed{
 a_0=2\pi,\quad a_n=0,\quad b_n=\frac{2(-1)^{n+1}}{n}
 }
-\]
+$$
 
-\[
+$$
 \boxed{
 f(x)=\pi+\sum_{n=1}^{\infty}\frac{2(-1)^{n+1}}{n}\sin nx
 }
-\]
+$$
