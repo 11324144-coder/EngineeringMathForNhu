@@ -142,8 +142,7 @@ $$
 
 $$
 \frac{1}{\left(s+\frac{1}{2}\right)(s+3)}
-=
-\frac{A}{s+\frac{1}{2}}+\frac{B}{s+3}
+=\frac{A}{s+\frac{1}{2}}+\frac{B}{s+3}
 $$
 
 兩邊同乘分母：
