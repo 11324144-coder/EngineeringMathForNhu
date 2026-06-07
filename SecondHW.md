@@ -141,37 +141,37 @@ $$
 設：
 
 $$
-\frac{1}{\left(s+\frac12\right)(s+3)}
+\frac{1}{\left(s+\frac{1}{2}\right)(s+3)}
 =
-\frac{A}{s+\frac12}+\frac{B}{s+3}
+\frac{A}{s+\frac{1}{2}}+\frac{B}{s+3}
 $$
 
 兩邊同乘分母：
 
 $$
-1=A(s+3)+B\left(s+\frac12\right)
+1=A(s+3)+B\left(s+\frac{1}{2}\right)
 $$
 
 令：
 
 $$
-s=-\frac12
+s=-\frac{1}{2}
 $$
 
 則：
 
 $$
-1=A\left(-\frac12+3\right)
+1=A\left(-\frac{1}{2}+3\right)
 $$
 
 $$
-1=A\left(\frac52\right)
+1=A\left(\frac{5}{2}\right)
 $$
 
 所以：
 
 $$
-A=\frac25
+A=\frac{2}{5}
 $$
 
 再令：
@@ -183,23 +183,23 @@ $$
 則：
 
 $$
-1=B\left(-3+\frac12\right)
+1=B\left(-3+\frac{1}{2}\right)
 $$
 
 $$
-1=B\left(-\frac52\right)
+1=B\left(-\frac{5}{2}\right)
 $$
 
 所以：
 
 $$
-B=-\frac25
+B=-\frac{2}{5}
 $$
 
 因此：
 
 $$
-X(s)=\frac{\frac25}{s+\frac12}-\frac{\frac25}{s+3}
+X(s)=\frac{\frac{2}{5}}{s+\frac{1}{2}}-\frac{\frac{2}{5}}{s+3}
 $$
 
 ---
@@ -209,23 +209,23 @@ $$
 使用公式：
 
 $$
-\mathcal{L}^{-1}\left\{\frac{1}{s+a}\right\}=e^{-at}
+\mathcal{L}^{-1}\left\lbrace \frac{1}{s+a} \right\rbrace=e^{-at}
 $$
 
 所以：
 
 $$
-\mathcal{L}^{-1}\left\{\frac{1}{s+\frac12}\right\}=e^{-\frac12t}
+\mathcal{L}^{-1}\left\lbrace \frac{1}{s+\frac{1}{2}} \right\rbrace=e^{-\frac{1}{2}t}
 $$
 
 $$
-\mathcal{L}^{-1}\left\{\frac{1}{s+3}\right\}=e^{-3t}
+\mathcal{L}^{-1}\left\lbrace \frac{1}{s+3} \right\rbrace=e^{-3t}
 $$
 
 因此：
 
 $$
-x(t)=\frac25e^{-\frac12t}-\frac25e^{-3t}
+x(t)=\frac{2}{5}e^{-\frac{1}{2}t}-\frac{2}{5}e^{-3t}
 $$
 
 ---
@@ -233,5 +233,5 @@ $$
 ## 最終答案
 
 $$
-\boxed{x(t)=\frac25\left(e^{-\frac12t}-e^{-3t}\right)}
+\boxed{x(t)=\frac{2}{5}\left(e^{-\frac{1}{2}t}-e^{-3t}\right)}
 $$
