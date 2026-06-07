@@ -423,35 +423,21 @@ $$
 
 $$
 \int x\sin nx\,dx
-=
--\frac{x\cos nx}{n}
-+
-\frac{1}{n}\int \cos nx\,dx
+=-\frac{x\cos nx}{n}+\frac{1}{n}\int \cos nx\,dx
 $$
 
 $$
-\int x\sin nx\,dx
-=
--\frac{x\cos nx}{n}
-+
-\frac{\sin nx}{n^2}
+\int x\sin nx\,dx=-\frac{x\cos nx}{n}+\frac{\sin nx}{n^2}
 $$
 
 代入上下限 \(0\) 到 \(\pi\)：
 
 $$
-\int_{0}^{\pi}x\sin nx\,dx
-=
-\left[-\frac{x\cos nx}{n}+\frac{\sin nx}{n^2}\right]_{0}^{\pi}
+\int_{0}^{\pi}x\sin nx\,dx=\left[-\frac{x\cos nx}{n}+\frac{\sin nx}{n^2}\right]_{0}^{\pi}
 $$
 
 $$
-=
--\frac{\pi\cos n\pi}{n}
-+
-\frac{\sin n\pi}{n^2}
--
-0
+=-\frac{\pi\cos n\pi}{n}+\frac{\sin n\pi}{n^2}-0
 $$
 
 因為：
@@ -463,9 +449,7 @@ $$
 所以：
 
 $$
-\int_{0}^{\pi}x\sin nx\,dx
-=
--\frac{\pi(-1)^n}{n}
+\int_{0}^{\pi}x\sin nx\,dx=-\frac{\pi(-1)^n}{n}
 $$
 
 因此：
