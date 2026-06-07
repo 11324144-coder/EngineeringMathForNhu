@@ -503,11 +503,7 @@ $$
 也就是：
 
 $$
-\boxed{
-x+\pi
-=
-\pi+2\sin x-\sin 2x+\frac{2}{3}\sin 3x-\frac{1}{2}\sin 4x+\cdots
-}
+\boxed{x+\pi=\pi+2\sin x-\sin 2x+\frac{2}{3}\sin 3x-\frac{1}{2}\sin 4x+\cdots}
 $$
 
 ---
