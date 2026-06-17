@@ -110,10 +110,12 @@ $$
 
 $$
 v_i(t)=
-\begin{cases}
+\left\{
+\begin{array}{ll}
 V_m, & 0<t<\frac{T}{2} \\
 0, & \frac{T}{2}<t<T
-\end{cases}
+\end{array}
+\right.
 $$
 
 其中：
