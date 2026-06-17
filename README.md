@@ -8,3 +8,6 @@ Student's ID :11324144
 # Second Homework
 * **2026/06/07/22:56**
 * [Laplace+Fourier series](./11324144SecondHW_20260607.md)
+# Finial
+* **2026/06/17/15:44 Finish**
+* [Question 8](./Final.md)
