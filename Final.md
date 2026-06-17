@@ -109,11 +109,7 @@ $$
 輸入訊號為 50% 占空比矩形波：
 
 $$
-v_i(t)=
-\begin{cases}
-V_m, & 0<t<T/2 \
-0, & T/2<t<T
-\end{cases}
+v_i(t)= \begin{cases} V_m, & 0<t<T/2 \ 0, & T/2<t<T \end{cases}
 $$
 
 其中：
@@ -169,10 +165,7 @@ $$
 串聯 RLC 中，若輸出取電容兩端：
 
 $$
-H(j\omega)=\frac{V_C}{V_i}
-==========================
-
-\frac{Z_C}{R+j\omega L+Z_C}
+H(j\omega)=\frac{V_C}{V_i}=\frac{Z_C}{R+j\omega L+Z_C}
 $$
 
 其中：
@@ -200,10 +193,7 @@ $$
 相位為：
 
 $$
-\angle H(j\omega)
-=================
-
--\tan^{-1}
+\angle H(j\omega)=-\tan^{-1}
 \left(
 \frac{\omega RC}{1-\omega^2LC}
 \right)
