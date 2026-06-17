@@ -109,7 +109,11 @@ $$
 輸入訊號為 50% 占空比矩形波：
 
 $$
-v_i(t)= \begin{cases} V_m, & 0<t<T/2 \ 0, & T/2<t<T \end{cases}
+v_i(t)=
+\begin{cases}
+V_m, & 0<t<\frac{T}{2} \\
+0, & \frac{T}{2}<t<T
+\end{cases}
 $$
 
 其中：
